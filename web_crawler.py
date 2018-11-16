@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import html5lib
+#new comment in the old web crawler file
 
 def myspider(max_pages):
     page = 1
@@ -14,7 +15,6 @@ def myspider(max_pages):
 #        print(just_links)
 #        print(type(just_links))
         return just_links
-
 
 
 
